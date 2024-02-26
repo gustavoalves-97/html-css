@@ -51,15 +51,63 @@ a:hover {
     text-decoration: underline;
 }
 
-main > p {
-    font-family: "Sriracha", cursive;
-    font-weight: 400;
+main {
+    font-family: "Sriracha", Arial, Helvetica, sans-serif;
+    font-weight: 500;
     font-style: normal;
     font-size: 45px;
-    
-    margin-top: 60px;
-    margin-left: 30px;
 }
+
+main > p {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    line-height: 2em;    
+}
+
+section {
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    box-shadow: inset 0px 1px 15px 0px black;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    line-height: 2em;
+}
+
+section#img2 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    box-shadow: inset 0px 1px 15px 0px black;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    line-height: 2em;
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.521);
+    background-size: contain;
+
+    width: 550px;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-left: 30px;
+    
+    color: white; 
+}
+
+
+
+
 
 
 
