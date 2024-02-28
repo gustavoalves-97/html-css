@@ -53,13 +53,20 @@ main {
     font-weight: 500;
     font-style: normal;
     font-size: 3.5vw; /* fazendo o main se adaptar ao tamanho de tela */
+    line-height: 2em;  
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
 }
 
 main > p {
     margin-left: 30px;
-    margin-top: 60px;
+    padding-bottom: 1em;  
+}
 
-    line-height: 2em;    
+p.paragrafo {
+    margin-bottom: 50px;
 }
 
 section {
@@ -72,7 +79,8 @@ section {
 
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-top: 150px;
+    margin-top: 90px;
+    margin-bottom: 60px;
 
     line-height: 2em;
 }
@@ -108,11 +116,12 @@ section > p {
 
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.7vh;
 
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 150px;
-    
+
     text-align: center;
 
     color: white;
