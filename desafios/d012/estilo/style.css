@@ -9,9 +9,12 @@
     padding: 0px;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
-    position: relative;
-    height: 270px;
+    text-align: center;
     
     background-color: black;
     
@@ -19,36 +22,24 @@ header {
 }
 
 h1 {
-    position: absolute;
-
     font-family: "Passion One", Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 97px;
-    word-spacing: 7px;
+    font-size: 10vw; /* fazendo o h1 se adaptar ao tamanho de tela */
+    font-variant: small-caps;
 
-    text-align: center;
-    top: 50px;
-    left: 280px;
-
-    transform: translate(0.5%, 0%);
-}
-
-span {
-    font-size: 136px;
+    padding-top: 50px;
 }
 
 header > p {
-    position: absolute;
-    left: 600px;
-    top: 200px;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+
+    padding-bottom: 50px;
 }
 
 a {
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
@@ -61,18 +52,14 @@ main {
     font-family: "Sriracha", Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 47px;
+    font-size: 3.5vw; /* fazendo o main se adaptar ao tamanho de tela */
 }
 
 main > p {
-    margin-top: 60px;
-    margin-bottom: 150px;
     margin-left: 30px;
-    line-height: 2em;    
-}
+    margin-top: 60px;
 
-p.paragrafo {
-    margin-bottom: 100px;
+    line-height: 2em;    
 }
 
 section {
@@ -85,6 +72,7 @@ section {
 
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-top: 150px;
 
     line-height: 2em;
 }
@@ -120,7 +108,10 @@ section > p {
 
 footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 40px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
     
     text-align: center;
 
@@ -128,15 +119,9 @@ footer {
     background-color: black;
 }
 
-footer > p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
-footer > div {
-    height: 120px;
-    background-color: #A9A9A9;
-}
+
+
 
 
 
